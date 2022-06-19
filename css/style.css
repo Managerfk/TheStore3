@@ -1,0 +1,380 @@
+@media (min-width: 800px){
+
+    .navegacion{
+        max-width: 1170;
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        justify-content: flex-end;
+
+    }
+
+    #logo{
+        width: 4rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    #barras{
+        display: none;
+    }
+
+    nav ul{
+        min-height: auto;
+        display: flex;
+    }
+
+    nav ul a{
+        padding: 0;
+        margin: 0 0.5rem;
+    }
+
+    .navheader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        background-color: rgb(233,216,166);
+        font-size: 0.875rem;
+    }
+    
+    
+    .card{
+        box-shadow: 0.125rem 0.125rem 0.4rem 0.15rem rgba(0,18,25);
+        background-color: rgb(233, 216, 180);
+        border-radius: 5px;
+        width: 20%;
+        margin: 0.5rem;
+        color: rgb(0,95,115);
+    }
+    
+    .card:hover{
+        box-shadow: 0.125rem 0.125rem 0.4rem 0.15rem rgba(0, 18, 25, 0.445);
+    }
+    
+    .card img{
+        width: 100%;
+    }
+    
+    .card h5{
+        font-size: inherit;
+        text-align: center;
+        color: rgb(187,62,3);
+    }
+    
+    .card button{
+        padding: 0.5rem;
+        border-radius: 1rem;
+        background-color: rgba(238,155,0);
+        width: 100%;
+        margin-bottom: 0.625rem;
+        border: 0px;
+        cursor: pointer;
+        color: rgb(0,95,115);
+    }
+    
+    .card button:hover{
+        box-shadow: 0 0.1rem 0.4rem 0 rgb(43, 45, 66);
+    }
+    
+    .contenedor{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container{
+        padding: 0.3rem 1rem;
+        text-align: center;
+    }
+    
+    nav{
+        background-color: rgb(10,147,150);
+        box-shadow: 0.6rem 0.125rem 1rem 0.125rem rgba(0,18,25);
+        padding: 1.6px;
+    }
+    
+    .navegacion{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    
+    .nav-main a{
+        Color: rgb(238,155,0);
+        font-size: 1.4rem;
+        text-decoration: none;
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+    
+    }
+    
+    .nav-main a:hover{
+        background-color: rgb(0,95,115);
+        color: rgb(187,62,3);
+        border-radius: 1rem;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    .formulario{
+        box-shadow: 0.125rem 0.125rem 0.4rem 0.15rem rgba(0,18,25);
+        margin-top: 2rem;
+        padding: 1rem;
+        border: 0.125rem;
+        width: auto;
+        background-color: rgba(233, 216, 180);
+    }
+    
+    .formulario h1{
+        font-size: 1.5rem;
+        color: rgb(187,62,3);
+    }
+    
+    .formulario{
+        color: rgb(187,62,3);
+    }
+    
+    .formulario:hover{
+        background-color: 0.125rem 0.125rem 0.4rem 0.15rem rgba(0, 18, 25, 0.445);
+    }
+    
+    .formulario input{
+        margin-left: 0rem;
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
+        padding: auto;
+        display: block;
+    }
+    
+    #logo{
+        width: 4rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .formulario input:hover{
+        box-shadow: 0rem 0rem 0.4rem 0.1rem rgba(0, 18, 25, 0.445);
+    }
+    
+    .ContenedorProduct{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botones input{
+        padding: 0.5rem;
+        border-radius: 1rem;
+        background-color: rgba(238,155,0);
+        width: 100%;
+        margin-bottom: 0.625rem;
+        border: 0px;
+        cursor: pointer;
+        color: rgb(0,95,115);
+    }
+    
+    .botones input:hover{
+        box-shadow: 0 0.1rem 0.4rem 0 rgb(43, 45, 66);
+    }
+
+}
+
+@media (max-width: 800px){
+
+    .nav-main{
+        height: 0;
+        overflow: hidden;
+        transition: all 0.3s linear;
+    }
+    
+    
+    .fa-bars{
+        font-size: 3rem;
+        margin-left: 1rem;
+        color: rgb(238,155,0);
+        margin-bottom: 0.4rem;
+        padding: 0.5rem;
+    }
+    
+    .show-menu{
+        height: 10rem;
+    }
+    
+    .fa-bars:hover{
+        background-color: rgb(0,95,115);
+        color: rgb(187,62,3);
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        background-color: rgb(233,216,166);
+        font-size: 0.875rem;
+    }
+    
+    
+    .card{
+        box-shadow: 0.125rem 0.125rem 0.4rem 0.15rem rgba(0,18,25);
+        background-color: rgb(233, 216, 180);
+        border-radius: 5px;
+        width: 20%;
+        margin: 0.5rem;
+        color: rgb(0,95,115);
+    }
+    
+    .card:hover{
+        box-shadow: 0.125rem 0.125rem 0.4rem 0.15rem rgba(0, 18, 25, 0.445);
+    }
+    
+    .card img{
+        width: 100%;
+    }
+    
+    .card h5{
+        font-size: inherit;
+        text-align: center;
+        color: rgb(187,62,3);
+    }
+    
+    .card button{
+        padding: 0.5rem;
+        border-radius: 1rem;
+        background-color: rgba(238,155,0);
+        width: 100%;
+        margin-bottom: 0.625rem;
+        border: 0px;
+        cursor: pointer;
+        color: rgb(0,95,115);
+    }
+    
+    .card button:hover{
+        box-shadow: 0 0.1rem 0.4rem 0 rgb(43, 45, 66);
+    }
+    
+    .contenedor{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container{
+        padding: 0.3rem 1rem;
+        text-align: center;
+    }
+    
+    nav{
+        background-color: rgb(10,147,150);
+        box-shadow: 0.6rem 0.125rem 1rem 0.125rem rgba(0,18,25);
+        padding: 1.6px;
+    }
+    
+    .navegacion{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    
+    .nav-main a{
+        Color: rgb(238,155,0);
+        font-size: 1.4rem;
+        text-decoration: none;
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+    
+    }
+    
+    .nav-main a:hover{
+        background-color: rgb(0,95,115);
+        color: rgb(187,62,3);
+        border-radius: 1rem;
+    
+    }
+    
+    ul{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    .formulario{
+        box-shadow: 0.125rem 0.125rem 0.4rem 0.15rem rgba(0,18,25);
+        margin-top: 2rem;
+        padding: 1rem;
+        border: 0.125rem;
+        width: auto;
+        background-color: rgba(233, 216, 180);
+    }
+    
+    .formulario h1{
+        font-size: 1.5rem;
+        color: rgb(187,62,3);
+    }
+    
+    .formulario{
+        color: rgb(187,62,3);
+    }
+    
+    .formulario:hover{
+        background-color: 0.125rem 0.125rem 0.4rem 0.15rem rgba(0, 18, 25, 0.445);
+    }
+    
+    .formulario input{
+        margin-left: 0rem;
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
+        padding: auto;
+        display: block;
+    }
+    
+    #logo{
+        width: 4rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    
+    .formulario input:hover{
+        box-shadow: 0rem 0rem 0.4rem 0.1rem rgba(0, 18, 25, 0.445);
+    }
+    
+    .ContenedorProduct{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botones input{
+        padding: 0.5rem;
+        border-radius: 1rem;
+        background-color: rgba(238,155,0);
+        width: 100%;
+        margin-bottom: 0.625rem;
+        border: 0px;
+        cursor: pointer;
+        color: rgb(0,95,115);
+    }
+    
+    .botones input:hover{
+        box-shadow: 0 0.1rem 0.4rem 0 rgb(43, 45, 66);
+    }
+}
+
+
+
+
+
+
+
